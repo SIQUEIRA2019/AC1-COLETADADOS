@@ -1,30 +1,61 @@
-<!DOCTYPE html>
+<!DOCTYPE <!DOCTYPE html>
 <html>
-	<head>
+<head>
+    <meta charset="utf-8">
+  
+    <title>TestRide</title>
+</head>
+<body> 
+  <div class="tela1">
+      <head>
+          <img src="/images/icon.jpg" alt="">
+      </head>
+  </div>  
+ <div class="form" action="novoCliente" method="POST">
 
-		<meta charset=”UTF-8” />
-		<link rel=”favicon” charset=”favicon.ico” />
-		<title>Título da Página</title>
+        <h2>Faça já seu cadastro e aguarde nosso contato!</h2>
+        <Label> Nome Completo: </label><br/>
+            
+        <input type="text" maxlength="50" name="user" size="50" placeholder="Digite seu nome aqui" required/><br/>
+        <h3></h3>
+        <Label> E-mail: </label><br/>
+                        
+        <input type="email" maxlength="50" name="user" size="50" placeholder="Digite seu e-mail aqui" required/><br/>
+        <h3></h3>  
+        <Label> Senha: </label><br/>
+            <input type="password" maxlength="8" name="pass" placeholder="Digite a senha" required/><br/>
+            <h3></h3>  
+        <Label> Telefone para contato: </label><br/>   
 
-   <body>
-       <h2>Aula de Formulários </h2>
+        <input type="text" maxlength="10" name="user" size="20" placeholder="Digite seu telefone aqui" required/><br/>
+        <h3></h3>
+        Qual o melhor período para entrarmos em contato com você?
+        <select name="UF">
+            <option name="M">Manhã</option>
+            <option name="T">Tarde</option>
+            <option name="N">Noite</option>
+            
+        </select>
+        <h3></h3>
+        <h3></h3>  
+        Você possui uma carteira nacional de habilitação (CNH) válida para pilotagem de motocicletas?<br/>
+        <input type="radio" value="sim" name="lp/>">Sim
+        <input type="radio" value="nao" name="lp/>">Não<br/>
+        <h3></h3> 
+        Qual é o seu estilo?<br/>
+        <input name="estilo" type="checkbox" value="LPII">Scooter<br/>
+        <input name="estilo" type="checkbox" value="LPII">Street<br/>
+        <input name="estilo" type="checkbox" value="LPII">Custom<br/>
+        <input name="estilo" type="checkbox" value="LPII">Naked<br/>
+        <input name="estilo" type="checkbox" value="LPII">Esportiva<br/>
+        <h3></h3> 
+            <label> Digite sua mensagem: </label><br/>
+                <textarea></textarea><br/>
+                
+                <input type="submit" />
+</body>
+</html>>
+
+          
+          
         
-        <Form action= "" method="GET">
-            <Label> Nome do usuário: </label><br/>
-            <input type="text" maxlength="10" name="user" size="50" placeholder="Digite seu nome aqui" required/><br/>
-            <h2></h2>
-            <Label> Senha: </label><br/>
-            <input type="password" maxlength="5" name="pass" placeholder="Digite a senha" required/><br/>
-            <h2></h2>
-	    <label> Digite sua mensagem: </label><br/>
-            <textarea></textarea>
-            <h2></h2>
-            <select name="UF">
-                <option name="SP">São Paulo</option>
-                <option name="RJ">Rio de Janeiro</option>
-            </select>
-            <h2></h2>
-            <input type="submit" />
-        </Form>
-   </body>
-</html>
